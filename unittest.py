@@ -4,6 +4,8 @@ import subprocess
 class TestCalculator(unittest.TestCase):
     def test_addition(self):
         result = subprocess.check_output(['python', 'calculator.py', 'add', '5', '3'])
+        print (result)
+        print (type(result))
         self.assertEqual(float(result.strip()), 8.0)
 
     def test_subtraction(self):
