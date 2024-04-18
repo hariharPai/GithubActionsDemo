@@ -35,4 +35,4 @@ else:
     print("Invalid operation")
     sys.exit(1)
 
-print("Result:", result)
+print(result)
