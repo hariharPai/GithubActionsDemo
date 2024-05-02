@@ -5,6 +5,8 @@ jobs:
      runs-on: ubuntu-latest
      steps:      
       - name: Clone Repo
-        run: echo "Clonning the repo"
+        run: |
+            echo "Clonning the repo"
+            echo "Checking if clone is complete"
       - name: Compile Repo
         run: echo "compiling buyer"
