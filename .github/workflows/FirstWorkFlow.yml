@@ -1,5 +1,5 @@
 name: MyFirstAction
-on: workflow_dispactch 
+on: workflow_dispatch 
 jobs:
    MyFirstJob:
      runs-on: ubuntu-latest
