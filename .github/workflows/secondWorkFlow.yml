@@ -7,6 +7,6 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v4
       - name: run code
-        run: python3 -m unittest test_calculator.py
+        run: python calculator.py add 5 3
       - name: run tests
         run: python3 -m unittest test_calculator.py
