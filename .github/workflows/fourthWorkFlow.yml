@@ -10,6 +10,7 @@ jobs:
         run: python greetingBoy.py
    
   secondJob: 
+     needs: firstJob
      runs-on: ubuntu-latest
      steps:
       - name: Get Code
