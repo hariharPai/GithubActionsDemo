@@ -1,7 +1,7 @@
 import unittest
 import subprocess
 
-#this is a calulator
+#this is a calulator. New Calculator
 
 class TestCalculator(unittest.TestCase):
     def test_addition(self):
