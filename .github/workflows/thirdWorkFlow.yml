@@ -12,9 +12,9 @@ jobs:
         run: python3 -m unittest test_calculator.py
   secondJob: 
      runs-on: ubuntu-latest
-      steps:
+     steps:
       - name: Get Code
-        uses: echo "getting the code"
+        run: echo "getting the code"
       - name: run code
         run:  echo "running the code"
       - name: run tests
