@@ -4,6 +4,11 @@ on:
    types:
       - opened
       - edited
+   branches: 
+     - main
+     - "dev-*"
+     - "important/**"
+   
  workflow_dispatch:
 jobs:
   firstJob:
