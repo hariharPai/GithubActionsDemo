@@ -4,6 +4,9 @@ jobs:
   firstJob:
     runs-on: ubuntu-latest
     steps:
-      - name: run code
+      - name: run env
         run: echo "${{ toJSON(github) }}"
+      - name: dayofweek
+        run: echo "${{ env.DAY_OF_WEEK }}"
+        
    
