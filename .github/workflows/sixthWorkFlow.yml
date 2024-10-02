@@ -1,0 +1,9 @@
+name: sixth_workflow
+on: [push, workflow_dispatch]
+jobs:
+  firstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run code
+        run: echo "${{ toJSON(github) }}"
+   
