@@ -19,7 +19,7 @@ jobs:
        with:
         name: my-artifact
      - name: run code
-        run:|
+       run: |
             ls -lrt
             cat greeting.txt
    
