@@ -1,4 +1,4 @@
-name: Build_Job
+name: eightWorkFlow
 on: push
 jobs:
  firstJob:
