@@ -1,7 +1,7 @@
 name: eightWorkFlow
 on: push
 jobs:
- firstJob:
+ buildJob:
   runs-on: ubuntu-latest
   steps:
     - name: Get Code
@@ -12,3 +12,14 @@ jobs:
       with:
         name: my-artifact
         path: greeting.txt
+ deployJob:
+   runs-on: ubuntu-latest
+   steps:
+     - uses: actions/download-artifact@v3
+       with:
+        name: my-artifact
+     - name: run code
+        run:|
+            ls -lrt
+            cat greeting.txt
+   
