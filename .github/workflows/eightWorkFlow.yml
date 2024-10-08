@@ -1,5 +1,5 @@
 name: eightWorkFlow
-on: push
+on: [push , workflow_dispatch]
 jobs:
  buildJob:
   runs-on: ubuntu-latest
