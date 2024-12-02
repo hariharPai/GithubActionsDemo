@@ -1,6 +1,6 @@
 import time
 
 for _ in range(10):
-    epoch_time = time.time()  # Get the current epoch time to see parallel
+    epoch_time = time.time()  # Get the current epoch time to see parallel hello
     print(f"Girl: hi | Epoch Time: {epoch_time}")
     time.sleep(10)  # Delay for 10 seconds
